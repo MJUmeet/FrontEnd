@@ -1,0 +1,59 @@
+.page {
+  width: 100%;
+  background-color: #e9e9e9;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contents {
+      display: flex;
+      flex-direction: column;
+      width: 1180px;
+      height: 700px;
+      background-color: #ffffff;
+      border-radius: 0 20px 20px 0;
+
+      .title {
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: 800;
+        color: black;
+      }
+
+      .roomName {
+        margin-left: 124px;
+        display: block;
+        width: 703px;
+        height: 83px;
+        border-radius: 10px;
+        font-size: 25px;
+        background-color: #eeeeee;
+      }
+      
+      .btnWrapper {
+        flex-direction: row;
+      }
+
+      .fastBtn {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 219px;
+        height: 83px;
+        background-color: #7F9593;
+      }
+
+      .longBtn {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 219px;
+        height: 83px;
+        background-color: #eeeeee;
+      }
+
+      
+      
+    }
+  }
+}

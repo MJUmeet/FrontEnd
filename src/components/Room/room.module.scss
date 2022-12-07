@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+  align-items: center;
+  width: 703px;
+  height: 83px;
+  background-color: #eeeeee;
+
+  .title {
+    margin-left: 41px;
+    font-size: 25px;
+    color: #323232;
+  }
+
+  .inperson {
+    margin-left: 466px;
+    font-size: 25px;
+    color: #3f5489;
+  }
+
+  .total {
+    margin-left: 5px;
+    font-size: 25px;
+    color: #3f5489;
+  }
+}

@@ -1,0 +1,24 @@
+.sideBar {
+  width: 80px;
+  height: 693px;
+  background-color: #7f9593;
+  border-radius: 20px 0 0 20px;
+
+  .iconWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 373px;
+
+    .icon {
+      width: 40px;
+      margin-top: 50px;
+    }
+
+    li {
+      list-style: none;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
