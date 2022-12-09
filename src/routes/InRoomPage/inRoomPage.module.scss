@@ -1,0 +1,127 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 45px;
+
+  .inRoomPage {
+    display: flex;
+
+    .contents {
+      width: 1184px;
+      background-color: white;
+      border-radius: 0 20px 20px 0;
+
+      .headBox {
+        display: flex;
+
+        .title {
+          margin-left: 42px;
+          font-size: 30px;
+          font-weight: 700;
+          color: black;
+        }
+
+        .roomID {
+          margin-left: 33px;
+          font-size: 30px;
+          font-weight: 700;
+          color: #3f5489;
+        }
+      }
+
+      .tableWrapper {
+        display: flex;
+        justify-content: center;
+
+        .myTable {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 40px;
+
+          .tableTitle {
+            font-size: 20px;
+            font-weight: 600;
+            color: black;
+          }
+        }
+      }
+
+      .displayTime {
+        display: flex;
+        flex-direction: column;
+
+        .priorTime {
+          .titleBox {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin-left: 50px;
+
+            .image {
+              width: 30px;
+              height: 30px;
+              padding: 8px;
+            }
+
+            .title2 {
+              font-size: 30px;
+              font-weight: 600;
+              color: black;
+            }
+          }
+
+          .timeFont {
+            font-size: 24px;
+            font-weight: 400;
+            color: black;
+          }
+        }
+
+        .possibleTime {
+          .titleBox {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin-left: 50px;
+
+            .image {
+              width: 30px;
+              height: 30px;
+              padding: 8px;
+            }
+
+            .title2 {
+              font-size: 30px;
+              font-weight: 600;
+              color: black;
+            }
+          }
+
+          .timeFont {
+            font-size: 24px;
+            font-weight: 400;
+            color: black;
+          }
+        }
+      }
+
+      .saveButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 115px;
+        height: 53px;
+        margin: 20px;
+        margin-top: 100px;
+        margin-left: 1000px;
+        font-size: 25px;
+        font-weight: 600;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #36454f;
+        border-radius: 10px;
+      }
+    }
+  }
+}

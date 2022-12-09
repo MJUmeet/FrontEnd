@@ -6,12 +6,12 @@ import { NavLink } from 'react-router-dom';
 
 function MainPage(){
      return (
-        <div className={styles.page}>
+        <div className={styles.mainPage}>
             <div className={styles.wrapper}>
                 <SideBar/>
                 <div className={styles.contents}>
                     <p className={styles.title}>나의 방 목록</p>
-                    <button className={styles.enter}><NavLink to="/enterRoom" style={{color:"white"}}>방 참가</NavLink></button>
+                    <button className={styles.plusRoomButton}>방 참가</button>
                     <div className={styles.roomWrapper}>
                     <Room/>
                     <Room/>

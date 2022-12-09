@@ -3,10 +3,6 @@ import React, { useState } from 'react'
 import styles from './addRoom.module.scss';
 import SideBar from '../SideBar';
 
-// const btnTypes = ["빠른 시간", "많은 시간"];
-// const [fast, setFast] = useState(true);
-// const [long, setLong] = useState(false);
-
 function AddRoom(){
     const btnTypes = ["빠른 시간", "많은 시간"];
     const [isActive, setActive] = useState(true);
@@ -38,9 +34,7 @@ function AddRoom(){
             </div>     
         </div>
     </div>    
-    )
-
-    
+    )   
 }
 
 export default AddRoom;
