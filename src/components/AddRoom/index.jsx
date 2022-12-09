@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+// import styled from "style-components";
 import styles from './addRoom.module.scss';
 import SideBar from '../SideBar';
 
@@ -7,21 +8,12 @@ import SideBar from '../SideBar';
 // const [long, setLong] = useState(false);
 
 function AddRoom(){
-    
-    // 빠른 시간 선택시 isFast == true, 많은 시간 선택 시 false
-    let [isFast, changePriority] = useState(true);
     const btnTypes = ["빠른 시간", "많은 시간"];
-    
-    // 버튼 상호작용 만들다가 보류...
-    // const [fast, setFast] = useState(true);
-    // const [long, setLong] = useState(false);
+    const [isActive, setActive] = useState(true);
 
-    // const changeBtnState = (e) => {
-    //     if(e.target.id === "1") {
-    //         e.target.textContext = "sdf"
-    //         e.target.style.backgroundColor="#7F9593";
-    //     }
-    // }
+    const handleClick = () => {
+        setActive(!isActive);
+    }
 
     return ( 
         // form 형태여야 함
@@ -33,8 +25,8 @@ function AddRoom(){
                 <input className={styles.roomName} type="text" placeholder="방 이름"/>
                 <p className={styles.title}>우선 순위</p>
                 <div className={styles.btnWrapper}>
-                    <button className={styles.fastBtn} id="1" onClick={changeBtnState}>{btnTypes[0]}</button>
-                    <button className={styles.longBtn} id="2" onClick={changeBtnState}>{btnTypes[1]}</button>
+                    <button className={styles.fastBtn} id="1" style={{backgroundColor: isActive ? '#7F9593': '#eeeeee'}} onClick={handleClick}>{btnTypes[0]}</button>
+                    <button className={styles.longBtn} id="2" style={{backgroundColor: isActive ? '#eeeeee': '#7F9593'}} onClick={handleClick}>{btnTypes[1]}</button>
                 </div>
                 <div className={styles.timeWrapper}>
                     <p className={styles.title}>회의 시간</p>
