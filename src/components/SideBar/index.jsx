@@ -14,7 +14,7 @@ function SideBar(){
             <ul>
                 <li><NavLink to="/mainPage"><img src={menu} className={styles.icon} alt='menu'/></NavLink></li>
                 <li><NavLink to="/addRoom"><img src={plus} className={styles.icon}alt='plus'/></NavLink></li>
-                <li><NavLink to="/myPage"><img src={user} className={styles.icon}alt='user'/></NavLink></li>
+                <li><NavLink to="/setting"><img src={user} className={styles.icon}alt='user'/></NavLink></li>
             </ul>      
         </div>
     </div>   

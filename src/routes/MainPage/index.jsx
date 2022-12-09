@@ -1,6 +1,8 @@
 import styles from './mainPage.module.scss';
 import SideBar from '../../components/SideBar';
 import Room from '../../components/Room';
+import EnterRoom from '../EnterRoom';
+import { NavLink } from 'react-router-dom';
 
 function MainPage(){
      return (
