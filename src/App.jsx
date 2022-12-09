@@ -6,6 +6,7 @@ import './App.css'
 import {Routes, Route} from "react-router-dom"
 import MyPage from './routes/MyPage'
 import AddRoom from './components/AddRoom'
+import EnterRoom from './routes/EnterRoom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Route path='/mainPage' element={<MainPage/>}/>
       <Route path='/setting' element={<MyPage/>}/>
       <Route path="/addRoom" element={<AddRoom/>}/>
+      <Route path="/enterRoom" element={<EnterRoom/>}/>
      </Routes>
     </div>
   )
