@@ -15,12 +15,12 @@ function AddRoom(){
     // const [fast, setFast] = useState(true);
     // const [long, setLong] = useState(false);
 
-    const changeBtnState = (e) => {
-        if(e.target.id === "1") {
-            e.target.textContext = "sdf"
-            e.target.style.backgroundColor="#7F9593";
-        }
-    }
+    // const changeBtnState = (e) => {
+    //     if(e.target.id === "1") {
+    //         e.target.textContext = "sdf"
+    //         e.target.style.backgroundColor="#7F9593";
+    //     }
+    // }
 
     return ( 
         // form 형태여야 함
