@@ -11,6 +11,7 @@ function AddRoom(){
     // 빠른 시간 선택시 isFast == true, 많은 시간 선택 시 false
     let [isFast, changePriority] = useState(true);
     const btnTypes = ["빠른 시간", "많은 시간"];
+    
     // 버튼 상호작용 만들다가 보류...
     // const [fast, setFast] = useState(true);
     // const [long, setLong] = useState(false);
