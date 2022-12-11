@@ -10,6 +10,7 @@
     .contents {
       display: flex;
       flex-direction: column;
+      align-items: center;
       width: 1180px;
       height: 700px;
       background-color: #ffffff;
@@ -23,34 +24,34 @@
       }
 
       .roomName {
-        // margin-left: 124px;
-        margin-left: auto;
-        margin-right: auto;
         display: flex;
         width: 703px;
         height: 83px;
-        border-radius: 10px;
+        margin-right: auto;
+        // margin-left: 124px;
+        margin-left: auto;
         font-size: 25px;
         background-color: #eeeeee;
+        border-radius: 10px;
       }
-      
+
       .btnWrapper {
         flex-direction: row;
       }
 
       .fastBtn {
-        margin-left: 50px;
-        margin-right: 50px;
         width: 219px;
         height: 83px;
-        background-color: #7F9593;
+        margin-right: 50px;
+        margin-left: 50px;
+        background-color: #7f9593;
       }
 
       .longBtn {
-        margin-left: 50px;
-        margin-right: 50px;
         width: 219px;
         height: 83px;
+        margin-right: 50px;
+        margin-left: 50px;
         background-color: #eeeeee;
       }
 
@@ -59,18 +60,16 @@
       }
 
       .time {
-        // margin-left: 124px;
-        margin-left: 30px;
-        margin-right: 50px;
-        
         flex-direction: row;
         width: 93px;
         height: 83px;
-        border-radius: 10px;
+        margin-right: 50px;
+        // margin-left: 124px;
+        margin-left: 30px;
         font-size: 25px;
         text-align: center;
-        
         background-color: #eeeeee;
+        border-radius: 10px;
       }
 
       .timeText {
@@ -78,8 +77,13 @@
         font-weight: 800;
       }
 
-      
-      
+      .submit {
+        width: 130px;
+        height: 50px;
+        margin-top: 19px;
+        background-color: transparent;
+        border: 1px solid black;
+      }
     }
   }
 }

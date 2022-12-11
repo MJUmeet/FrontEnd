@@ -37,11 +37,12 @@ export default {
   },
 
   lookupRoom(id) {
+    console.log(id);
     return Axios({
       url: 'api/rooms',
       method: 'post',
       data: {
-        id,
+        userId: id,
       },
     });
   },

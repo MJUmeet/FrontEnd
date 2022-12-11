@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+
+  .inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+
+    .field {
+      width: 160px;
+      height: 40px;
+    }
+  }
+
+  .button {
+    width: 120px;
+    height: 40px;
+    background-color: beige;
+    border-radius: 4px;
+  }
+}

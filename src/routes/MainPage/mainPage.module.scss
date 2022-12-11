@@ -9,6 +9,7 @@
     display: flex;
 
     .contents {
+      position: relative;
       display: flex;
       flex-direction: column;
       width: 1180px;
@@ -21,15 +22,17 @@
         font-weight: 800;
         color: black;
       }
-      
+
       .plusRoomButton {
-        align-items: center;
+        position: absolute;
+        top: 85px;
+        right: 150px;
         width: 154px;
         height: 64px;
-        margin-left: 900px;
         font-size: 25px;
         font-weight: 600;
         color: #ffffff;
+        cursor: pointer;
         background-color: #36454f;
         border-radius: 10px;
       }
