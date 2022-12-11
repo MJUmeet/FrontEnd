@@ -8,6 +8,7 @@ import MyPage from './routes/MyPage'
 import AddRoom from './components/AddRoom'
 import EnterRoom from './routes/EnterRoom'
 import InRoomPage from './routes/InRoomPage'
+import SignupPage from './routes/SignupPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
       <Route path="/addRoom" element={<AddRoom/>}/>
       <Route path="/enterRoom" element={<EnterRoom/>}/>
       <Route path='/room' element={<InRoomPage/>}/>
+      <Route path='/signup' element={<SignupPage/>}/>
      </Routes>
     </div>
   )
